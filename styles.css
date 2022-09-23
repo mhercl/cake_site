@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.h1 {
+    font-style: oblique;
+    text-align: center;
+    font-size: 4em;
+    padding: 10px;
+    color: rgb(10, 242, 227);
+}
+
+.row::after {
+   content: "";
+   display: table;
+   clear: both;
+   }
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+   }
+
+.column img {
+    margin-top: 12px;
+   }
+
+footer {
+    text-align: center;
+}
