@@ -61,3 +61,9 @@ footer {
     background-color:blue;
     color: whitesmoke;
 }
+.about-txt {
+    font-family: fantasy;
+    font-style: oblique;
+    color: aqua;
+    font-size: 25px;
+}
